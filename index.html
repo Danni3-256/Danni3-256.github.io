@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Daniel Okia Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://kit.fontawesome.com/56bbc7665c.js" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    	<script type="text/javascript">
+        (function() {
+            emailjs.init("lkRsA3F84rJ3oeJrR");
+        })();
+    	</script>
+		<!-- <script type="text/javascript">
+			window.onload = function() {
+				document.getElementById('contact-form').addEventListener('submit', function(event) {
+					event.preventDefault();
+					// generate a five digit number for the contact_number variable
+					this.contact_number.value = Math.random() * 100000 | 0;
+					// these IDs from the previous steps
+					emailjs.sendForm('contact_service', 'contact_form', this)
+						.then(function() {
+							console.log('SUCCESS!');
+						}, function(error) {
+							console.log('FAILED...', error);
+						});
+				});
+			}
+		</script> -->
+
+	<style>
+		#p_boarder{
+			width: 100%;
+			border: 2px solid whitesmoke;
+			color: white;
+			border-radius: 5px;
+		}
+	</style>
+	</head>	
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">About</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container"> 
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/luke-chesser-JKUTrJ4vK00-unsplash.jpg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi. I'm <strong>Daniel Okia</strong>.</h1>
+							</header>
+							<p>A Data Analyst and budding <strong>Data Scientist</strong> that is passionate about data analytical insights, creating reports and building machine learning models.</br><strong>Python, </strong>SQL, Excel and Power BI.</p>
+							<a href="#work" class="button large scrolly">Learn about what I do</a>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Work -->
+			<article id="work" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Here's all the stuff I do.</h2>
+						<p>As a Data Analyst, I translate data into valuable and comprehensive insights.</br>My goal is to uncover actionable insights towards performance, predict outcomes so as to make the right decisions and improve results.</p>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<i class="fa-solid fa-chart-line"></i>
+								<h3>Data Analysis</h3>
+								<p>I am specialized in analysing data, results and trends. I provide useful insights and statistics and extract actionable, relevant information that helps businesses make informed decisions.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<i class="fa-solid fa-robot"></i>
+								<h3>Machine Learning</h3>
+								<p>High-value predictions.<br>Get a view of trends in customer behavior and business operational patterns that can guide better decisions and smart actions as well as the development of new products.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<i class="fa-solid fa-chart-simple"></i>
+								<h3>Dashboards</h3>
+								<p>Get a better representation of your data. Dashboards show results and uncover actionable insights in an interactive and visual way. I create my dashboards and reports in Power BI and Excel.</p>
+							</section>
+						</div>
+					</div>
+					<footer>
+						<a href="#portfolio" class="button large scrolly">See some of my recent projects</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Here is a collection of my projects.</h2>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/Danni3-256/EDA-with-Python/blob/main/Python%20EDA/EDA%20on%20Netflix%20DataSet.ipynb" class="image featured"><img src="images/code.jpg" alt="" /></a>
+								<h3><a href="https://github.com/Danni3-256/My-Projects/tree/main/Data%20Analytics">Data Analytics</a></h3>
+								<p>Here is a Repository of my SQL and Python Projects. Data cleaning, EDA and Examining data sets to find trends.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/Danni3-256/EDA-with-Python/blob/main/Python%20EDA/Global%20Terrorism%20EDA.ipynb" class="image featured"><img src="images/machine-learning-gc2d52942d_1920.jpg" alt="" /></a>
+								<h3><a href="https://github.com/Danni3-256/My-Projects/tree/main/Machine%20Learning">Machine Learning</a></h3>
+								<p>Repository contains Machine Learning and predictive models built in Python jupyter notebooks.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/Danni3-256/EDA-with-Python/blob/main/Python%20EDA/Facebook%20Sentimental%20Analysis.ipynb" class="image featured"><img src="images/Analytics.jpg" alt="" /></a>
+								<h3><a href="https://github.com/Danni3-256/My-Projects/tree/main/Power%20BI">Reports and Dashboards</a></h3>
+								<p>Reports and dashboards created in Power BI. A visual display of tables, charts, key metrics and trends. </p>
+							</article>
+						</div>
+						<!-- <div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/Covid (2).jpg" alt="" /></a>
+								<h3><a href="#">Covid-19</a></h3>
+								<p>Analysis on Impact of the covid-19 Pandemic. </p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/Sql p.jpg" alt="" /></a>
+								<h3><a href="#">SQL Projects</a></h3>
+								<p>Data Cleaning, Ad hoc and Exploratory Analysis in SQL.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/Power.jpg" alt="" /></a>
+								<h3><a href="#">Power BI projects</a></h3>
+								<p>Data Extraction, Transformation and Visuals in Power BI.</p>
+							</article>
+						</div> -->
+					</div>
+					<footer>
+						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Have Me Analyze Data For You.</h2>
+					</header>
+					<div class="row">
+						<div class="col-12" id="p_boarder">
+							<p>Are you looking to gain useful insights from your data that will in the end drive better decision making?<br> 
+							Data driven companies and organizations make better strategic decisions and in return enjoy higher operational efficiency and improve cusomer satisfaction.
+							<br>
+							I will squeeze every ounce of insight from your data. My skillset is wide and I like to work fast to help you uncover actionable insights by moving from data to insight to decision making.
+							<br>
+							I have relevant experience and skills in data mining, data cleaning, data exploration and visualization as well as webscraping.
+							</p>
+						</div>
+						<div class="col-12">
+							<hr/>
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<li><a href= mailto:okiadaniel90@gmail.com? subject = "subject text" class="icon brands fa-envelope"><span class="label">G mail</span></a></li>
+								<li><a href="https://twitter.com/d_okia" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.linkedin.com/in/dokia256/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/Danni3-256" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<!--
+								<><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+							</ul>
+							<hr />
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/scripts.js"></script>
+
+	</body>
+</html>
