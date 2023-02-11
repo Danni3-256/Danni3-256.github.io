@@ -73,7 +73,7 @@ input, select, textarea {
 }
 
 /* Basic */
-
+	
 	html {
 		box-sizing: border-box;
 	}
@@ -1623,7 +1623,7 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		display: inline-block;
+		display: block;
 		position: relative;
 	}
 
@@ -2001,8 +2001,10 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
+			justify-content: center;
+			alig
 			background-image: none;
-			background-color: #fff;
+			background-color: whitesmoke;
 		}
 
 		.wrapper.style2 {
@@ -2112,6 +2114,7 @@ input, select, textarea {
 	}
 
 	#top {
+		margin-top: 0;
 		padding: 10em 0 10em 0;
 		text-align: left;
 	}
